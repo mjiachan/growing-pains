@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+}
+
+/** intro text; in its own section */
+.htext {
+	font-family: 'Anton', sans-serif;
+
+	position: absolute;
+	right:135px;
+	top:100px;
+}
+#title {
+	font-size: 72px;	
+
+}
+
+#subtitle {
+	font-size: 48px;
+	color: #434344;
+
+	position:absolute;
+	top:190px;
+	right:265px;
+
+}
+
+/** landing page */
+#sec1 {
+	height: 100vh;
+	display:flex;
+}
+
+/** LEFT SIDE */
+#left_side {
+	width: 64vw;
+	background-color: #F9EFC7;
+}
+
+#nav_bar {
+	letter-spacing: 2.5px;
+	font-size: 24px;
+
+	position:absolute;
+	left:75px;
+	top:30px;
+}
+
+#horizontal {
+	position:absolute;
+	top:30px;
+	left:30px;
+}
+
+#homeframe {
+	transform:scale(0.9);
+	display:flex;
+	justify-content: center;
+}
+
+#home {
+	position:absolute;
+	top:100px;
+}
+
+#sidenav1 {
+	width: 100vw;
+	height: 100vh;
+	/**display:flex;
+	flex-direction: column; */
+
+
+}
+
+#one {
+	font-size: 60px;
+
+	position:absolute;
+	left:75px;
+	top: 300px;
+}
+
+#l1 {
+	position:absolute; 
+	left:-210px; 
+	top: 147px;
+}
+
+#welcome {
+	letter-spacing: 2.5px;
+	font-size: 24px;
+	position:absolute;
+	left:-1085px;
+	top:-605px;
+
+	transform:rotate(-90deg);
+}
+
+/** right side */
+
+#popframe {
+	position: absolute;
+	right: 220px;
+	bottom:80px;
+}
+
+
+
+
+/** a n i m a t i o n s */
+/* safari and chrome */
+@-webkit-keyframes wiggle {
+	0% {-webkit-transform:rotate(7deg);}
+	50% {-webkit-transform:rotate(-7deg);}
+	100% {-webkit-transform:rotate(7deg);}
+}
+ 
+/* firefox */
+@-moz-keyframes wiggle {
+	0% {-moz-transform:rotate(7deg);}
+	50% {-moz-transform:rotate(-7deg);}
+	100% {-moz-transform:rotate(7deg);}
+}
+ 
+/* anyone brave enough to implement the ideal method */
+@keyframes wiggle {
+	0% {transform:rotate(7deg);}
+	50% {transform:rotate(-7deg);}
+	100% {transform:rotate(7deg);}
+}
+ 
+.wiggler:hover {
+	-webkit-animation: wiggle 0.5s infinite;
+	-moz-animation: wiggle 0.5s infinite;
+	animation: wiggle 0.5s infinite;
+}
