@@ -120,9 +120,7 @@ a:hover {
 
 #nav2 {
 	position:absolute;
-	top:100px;
 	z-index: 30;
-	border: 1px solid red;
 }
 
 /** PICTURE CONTENT **/ 
