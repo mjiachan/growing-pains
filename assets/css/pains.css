@@ -24,8 +24,8 @@ a:hover {
 	font-family: 'Anton', sans-serif;
 
 	position: absolute;
-	right:88px;
-	top:88px;
+	right:135px;
+	top:100px;
 }
 
 /** BACKGROUND **/
@@ -45,12 +45,12 @@ a:hover {
 
 #nav_bar {
 	z-index:30;
-	letter-spacing: 11px;
-	font-size: 94px;
+	letter-spacing: 2.5px;
+	font-size: 24px;
 
 	position:absolute;
-	left:300px;
-	top:120px;
+	left:75px;
+	top:30px;
 }
 
 #horizontal {
@@ -78,11 +78,11 @@ a:hover {
 }
 
 #two {
-	font-size: 220px;
+	font-size: 60px;
 
 	position:absolute;
-	left:50px;
-	top: 1750px;
+	left:75px;
+	top: 300px;
 }
 
 #l1 {
@@ -96,8 +96,8 @@ a:hover {
 #pains {
 	height:30vh;
 	z-index:100;
-	letter-spacing: 11px;
-	font-size: 94px;
+	letter-spacing: 2.5px;
+	font-size: 24px;
 	position:absolute;
 	/*top:4550px;
 	right:4955px; */
