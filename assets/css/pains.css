@@ -56,13 +56,13 @@ a:hover {
 
 	position:absolute;
 	left:75px;
-	top:30px;
+	top:-100px;
 }
 
 #horizontal {
-	transform:scale(1.5, 2);
+	transform:scale(1.2, 1.5);
 	position:absolute;
-	left:230px;
+	left:200px;
 }
 
 
@@ -132,7 +132,7 @@ a:hover {
 
 #content {
 	position:absolute;
-	top:150px;
+	top:50px;
 }
 
 #home {
